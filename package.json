@@ -1,0 +1,32 @@
+{
+  "name": "json-async",
+  "version": "0.0.0",
+  "description": "json methods with promise and alias",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangya/json-async.git"
+  },
+  "keywords": [
+    "json",
+    "promise"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangya/json-async/issues"
+  },
+  "homepage": "https://github.com/zhuangya/json-async#readme",
+  "scripts": {
+    "test": "xo && nyc ava && nyc report --reporter=text-lcov | coveralls"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "coveralls": "^2.11.12",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "space": 2
+  }
+}
