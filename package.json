@@ -1,6 +1,6 @@
 {
   "name": "json-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "json methods with promise and alias",
   "main": "index.js",
   "repository": {
