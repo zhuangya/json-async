@@ -18,11 +18,10 @@
   },
   "homepage": "https://github.com/zhuangya/json-async#readme",
   "scripts": {
-    "test": "xo && nyc ava && nyc report --reporter=text-lcov | coveralls"
+    "test": "xo && nyc ava"
   },
   "devDependencies": {
     "ava": "^0.15.2",
-    "coveralls": "^2.11.12",
     "nyc": "^7.1.0",
     "xo": "^0.16.0"
   },
