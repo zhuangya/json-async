@@ -19,7 +19,7 @@
   "homepage": "https://github.com/zhuangya/json-async#readme",
   "scripts": {
     "test": "make",
-    "test:coveralls": "xo && nyc ava --report=text-lcov | coveralls",
+    "test:coveralls": "xo && nyc ava && nyc report --reporter=text-lcov | coveralls",
     "test:nyc": "xo && nyc ava"
   },
   "devDependencies": {
