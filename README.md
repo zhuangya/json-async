@@ -1,5 +1,7 @@
 #json-async
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zhuangya/json-async.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Coverage][coveralls-image]][coveralls-url]
