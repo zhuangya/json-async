@@ -23,10 +23,10 @@
     "test:nyc": "xo && nyc ava"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "coveralls": "^2.11.12",
-    "nyc": "^7.1.0",
-    "xo": "^0.16.0"
+    "ava": "^2.1.0",
+    "coveralls": "^3.0.4",
+    "nyc": "^14.1.1",
+    "xo": "^0.24.0"
   },
   "xo": {
     "space": 2
